@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bgimage{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.m1{
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+.Search-bar{
+    border: 1px solid white;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color:white;
+    margin-left: 400px;
+}
+.input-field{
+    border: none;
+    width: 400px;
+    outline: none;
+    height: 28px;
+    padding-left: 15px;
+}
+nav{
+    display: flex;
+    justify-content: end; 
+    gap: 8px;
+    padding: 8px;  
+    color: white;
+}
+p{
+    font-size: 12px;
+    justify-content: center;
+    color:white;
+    padding: 18px;
+}
+    
+.apps{
+    text-align: center;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.bg{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:rgb(231, 229, 229,0.2);
+    padding: 15px;
+    border: none;
+}
